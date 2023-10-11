@@ -1,0 +1,22 @@
+.nav{
+    background-color: #020617;
+    position: fixed;
+    
+}
+
+.Rami{
+    color:#FFFFFF;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.L{
+    color:#EAB308;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+#responsive-navbar-nav{
+    margin-left: 150px;
+    justify-content: right;
+}

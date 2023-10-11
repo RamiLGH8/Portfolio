@@ -1,0 +1,16 @@
+.main{
+    display:flex ;
+    height:91vh;
+    justify-content:center;
+    align-items:center;
+    background-color: #111827;
+}
+.name{
+    font-family:'Lexend Deca',sans-serif;
+    color:#F3F4F6;
+    margin:20px 0;
+    font-weight: bold;
+    font-size: 64px;
+    letter-spacing: 2px;
+
+}
