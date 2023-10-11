@@ -14,3 +14,21 @@
     letter-spacing: 2px;
 
 }
+spam{
+    color: #EAB308;
+    font-weight: bold;
+    font-size: 70px;
+}
+Button{
+    height: 43px;
+    width: 123px; 
+}
+
+.description{
+    font-family:'Lexend Deca',sans-serif;
+    color:#F3F4F6;
+    margin:20px 0;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+}

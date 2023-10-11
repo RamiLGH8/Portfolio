@@ -6,7 +6,7 @@ function NavigationBar() {
     return (
       <Navbar  collapseOnSelect expand="lg" className="nav">
         <Container >
-          <Navbar.Brand className="brand"><span className='Rami'>Rami</span ><span className='L'>L.</span></Navbar.Brand>
+          <Navbar.Brand className="brand"><spam className='Rami'>Rami</spam ><span className='L'>L.</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" >
             <Nav >
