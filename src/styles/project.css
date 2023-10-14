@@ -1,5 +1,7 @@
 .Project-Card{
     background-color: #020617;
+    display: flex;
+    flex-direction: column;
     height: 400px;
     width: 400px;
     border-radius: 10%;
@@ -13,7 +15,16 @@
         color: #EAB308; 
       }
 }
-
+.informations{
+     height: 80%;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
 .project-button{
     background-color: #EAB308;
     color: #111827;
@@ -26,8 +37,22 @@
     font-size: 20px;
     margin-top: 20px;
 }
-a{
+.link{
     color: #020617; 
+    font-family:'Lexend Deca', sans-serif; ;
     text-decoration: none; 
     font-size: 16px;
   }
+.title{
+    display: flex;
+    justify-content: space-between;
+    font-family:'Lexend Deca',sans-serif ;
+}
+.description{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.description-text{
+    font-family:'Lexend Deca',sans-serif ;
+    font-size: 15px;
+}
