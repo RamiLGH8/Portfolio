@@ -4,7 +4,7 @@ import '../styles/home.css';
 export const Home = () => {
   return (
     <>
-    <div className='main' >
+    <div className='main' id='home' >
        <div style={{marginRight:'250px'}}>
         <h5 style={{color:'#EAB308'}}>Hello, Welcome</h5>
         <p className='name' >I am Rami <spam >L</spam>eghrib</p>
