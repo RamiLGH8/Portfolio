@@ -19,9 +19,16 @@ spam{
     font-weight: bold;
     font-size: 70px;
 }
-Button{
+.button-div{
+  padding-top: 70px;
+}
+.contact-button{
     height: 43px;
-    width: 123px; 
+    width: 150px; 
+    font-family: 'Lexend Deca',sans-serif;
+    background-color:#EAB308 ;
+    border-radius: 5%;
+    border-width: 0;
 }
 
 .description{
@@ -32,3 +39,67 @@ Button{
     font-size: 24px;
     letter-spacing: 2px;
 }
+@media screen and (max-width: 991px) {
+    .main {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+    .description-content{
+        margin-top: 50px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-left: 250px;
+        width: 100%;
+    }
+
+   .image-div{
+    padding-top: 100px;
+    border-radius: 50%;
+    
+   }
+   .first-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+   }
+  
+   .name{
+    font-size: 50px;
+   }
+    .description{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .button-div{
+      display: none;
+    }
+   
+    span {
+      font-size: 36px;
+      margin-right: 0;
+    }
+  
+    .about-description {
+      font-size: 18px;
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  
+  /* Media Query for Mobile Phones */
+  @media screen and (max-width: 480px) {
+    .About-me {
+      font-size: 30px;
+    }
+  
+    span {
+      font-size: 30px;
+    }
+  
+    .about-description {
+      font-size: 16px;
+    }
+  }
+  

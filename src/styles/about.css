@@ -31,3 +31,21 @@ span{
     text-align:justify;
    
 }
+@media screen and (max-width: 991px) {
+    .about-image{
+        display: none;
+    }
+    .about-description{
+        margin-left: 0;
+        width: 60%;
+    }
+    .About-me{
+        margin-bottom: 30px;
+    }
+    .About-me-description{
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+}

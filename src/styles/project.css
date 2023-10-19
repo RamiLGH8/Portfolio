@@ -57,3 +57,21 @@
     font-family:'Lexend Deca',sans-serif ;
     font-size: 15px;
 }
+@media screen and (max-width: 991px) {
+    .Project-Card{
+        width: 300px;
+        height: 300px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .description-text{
+        font-size: 12px;
+    }
+    .project-button{
+        font-size: 15px;
+    }
+    .link{
+        font-size: 12px;
+    }
+}

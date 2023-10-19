@@ -18,4 +18,33 @@
     font-weight: bold;
     
 }
-
+@media screen and (max-width: 991px) {
+    
+    .My-Projects{
+        font-size: 50px;
+        padding-bottom: 70px;   
+        font-family: 'Lexend Deca',sans-serif;
+        color: #F3F4F6;
+        font-weight: bold;
+        
+    }
+    spam{
+        font-size: 50px
+    }
+    .Project-Card{
+        width: 300px;
+        height: 300px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .description-text{
+        font-size: 12px;
+    }
+    .project-button{
+        font-size: 15px;
+    }
+    .link{
+        font-size: 12px;
+    }
+}

@@ -8,7 +8,7 @@ import 'swiper/css';
 export const Projects = () => {
   return (
    <div id='projects'>
-      <p className='My-Projects'>My <spam>Projects</spam> </p>
+      <p className='My-Projects'>My <spam >Projects</spam> </p>
        
        <div id='projects-slides'>
        <Swiper
@@ -18,7 +18,7 @@ export const Projects = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-       slidesPerView={3}
+       slidesPerView={window.innerWidth>=991?3:(window.innerWidth>=768?2:1)}
         modules={[Autoplay]}
         className="mySwiper"
          >
