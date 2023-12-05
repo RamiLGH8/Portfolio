@@ -1,0 +1,88 @@
+#contact{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-around; 
+    background-color: #020617;
+}
+
+.Content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 50%;
+}
+.Right-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+}
+.Contact-me-button{
+    height: 43px;
+    width: 150px; 
+    font-family: 'Lexend Deca',sans-serif;
+    background-color:#EAB308 ;
+    border-radius: 5%;
+    border-width: 0;
+}
+
+.contact-info{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Lexend Deca',sans-serif;
+letter-spacing: 2px;
+} 
+.info{
+    font-size: 30px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    font-family: 'Lexend Deca',sans-serif;
+}
+textarea{
+    width: 540px;
+    height: 166px;
+    background-color:#111827;
+    color: white;
+    border: none;
+    
+}
+textarea:focus{
+    outline: none;
+}
+input{
+    width: 350px;
+    height: 63px;
+    background-color:#111827;
+    color: white;
+    border: none;
+    
+}
+input:focus {
+    outline: none;
+  }
+.Socials{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}  
+i{
+   padding-right: 20px;
+   padding-left: 20px;
+    font-size: 40px;
+}
+i:hover{
+    color: #EAB308;
+}
+.Contact-Me{
+    padding-top: 20px;
+    font-size: 70px;
+    font-family:'Lexend Deca',sans-serif;
+    color:#F3F4F6;
+}

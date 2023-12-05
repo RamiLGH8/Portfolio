@@ -1,7 +1,8 @@
 .Project-Card{
     background-color: #020617;
-    display: flex;
+    display: block;
     flex-direction: column;
+    z-index: -1000;
     height: 400px;
     gap:1;
     width: 400px;

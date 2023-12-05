@@ -2,8 +2,6 @@ import React,{useState} from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import{NavItem} from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import '../styles/navigation-bar.css'
 import MenuIcon from '@mui/icons-material/Menu';
@@ -16,7 +14,7 @@ function NavigationBar() {
       <>
       {/* Desktop navbar */}
      <div className='d-none d-lg-block'>
-      <Navbar style={{position:"fixed",top:"0",backgroundColor:'#020617',width:'100%'}}>
+      <Navbar style={{zIndex: "1", position:"fixed",top:"0",backgroundColor:'#020617',width:'100%'}}>
       <Container>
         <Navbar.Brand href='#home' ><spam className='Rami'>Rami</spam ><span className='L'>L.</span></Navbar.Brand>
         <Nav className="me-auto" style={{marginLeft:'auto'}}>
@@ -30,7 +28,7 @@ function NavigationBar() {
     </div>
     {/* Mobile navbar */}
     <div className='d-lg-none'>
-      <Nav style={{width:'100%',display:'flex'}}>
+      <Nav style={{position:'fixed', width:'100%',display:'flex'}}>
         <Nav.Item style={{marginRight:'auto',height:'90px',display:'flex',alignItems:'center',marginLeft:'10px'}}>
         <Navbar.Brand href='#home' style={{width:'100px'}} ><spam className='Rami'>Rami</spam ><span className='L'>L.</span></Navbar.Brand>
         

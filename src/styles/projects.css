@@ -1,7 +1,6 @@
 #projects{
     height: 100vh;
     background-color: #111827;
-   
 }
 #projects-slides{
     display: flex;
@@ -18,6 +17,7 @@
     font-weight: bold;
     
 }
+
 @media screen and (max-width: 991px) {
     
     .My-Projects{
