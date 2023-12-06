@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/contact.css";
 export const Contact = () => {
+  
     return(
         <>
           <div id="contact">
@@ -19,10 +20,10 @@ export const Contact = () => {
                 </div>
                </div> 
              <div className="Socials">
-               <i className="social" class="fa-brands fa-facebook"></i>
-               <i className="social" class="fa-brands fa-instagram"></i>
-               <i className="social" class="fa-brands fa-linkedin"></i>
-               <i className="social" class="fa-brands fa-github"></i>
+               <a href="https://web.facebook.com/profile.php?id=100009874778147" style={{color:'#6B7280'}}><i className="social" class="fa-brands fa-facebook"></i></a>
+               <a href="https://www.instagram.com/rami_lgh/" style={{color:'#6B7280'}}><i className="social" class="fa-brands fa-instagram"></i></a>
+               <a href="https://www.linkedin.com/in/rami-leghrib-4b321a224/" style={{color:'#6B7280'}}><i className="social" class="fa-brands fa-linkedin"></i></a>
+               <a href="https://github.com/RamiLGH8" style={{color:'#6B7280'}}><i className="social" class="fa-brands fa-github"></i></a>
              </div>
           </div>
         </>

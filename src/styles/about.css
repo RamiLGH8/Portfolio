@@ -1,6 +1,6 @@
 #about{
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
     background-color: #020617;
     height: 100vh;
@@ -27,9 +27,20 @@ span{
     font-family: 'Lexend Deca', sans-serif;
     font-weight: bold;
     color: #6B7280;
-    margin-left: 200px;
     text-align:justify;
-   
+    padding: 70px;
+    width: 50%;
+
+}
+.about-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.about{
+    width: 60%;
+    height:60%;
 }
 @media screen and (max-width: 991px) {
     .about-image{
@@ -37,7 +48,7 @@ span{
     }
     .about-description{
         margin-left: 0;
-        width: 60%;
+        width: 90%;
     }
     .About-me{
         margin-bottom: 30px;

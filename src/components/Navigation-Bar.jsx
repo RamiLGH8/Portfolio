@@ -28,7 +28,7 @@ function NavigationBar() {
     </div>
     {/* Mobile navbar */}
     <div className='d-lg-none'>
-      <Nav style={{position:'fixed', width:'100%',display:'flex'}}>
+      <Nav style={{position:'fixed',top:'0', width:'100%',display:'flex',}}>
         <Nav.Item style={{marginRight:'auto',height:'90px',display:'flex',alignItems:'center',marginLeft:'10px'}}>
         <Navbar.Brand href='#home' style={{width:'100px'}} ><spam className='Rami'>Rami</spam ><span className='L'>L.</span></Navbar.Brand>
         

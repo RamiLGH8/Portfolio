@@ -1,16 +1,17 @@
 .main{
     display:flex ;
     height:100vh;
-    justify-content:center;
+    justify-content: space-between;
     align-items:center;
     background-color: #111827;
+    width: 100%;
 }
 .name{
     font-family:'Lexend Deca',sans-serif;
     color:#F3F4F6;
     margin:20px 0;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 50px;
     letter-spacing: 2px;
 
 }
@@ -36,33 +37,56 @@ spam{
     color:#F3F4F6;
     margin:20px 0;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 2px;
 }
+.description-content{
+    padding-left: 100px;
+    width: 100%;
+}
+.image-div{
+  width: 60%;
+  padding: 50px;
+ 
+}
+.first-image{
+  height: 100%;
+  width: 100%;
+}
+
 @media screen and (max-width: 991px) {
     .main {
+      width: 100%;
+      display: flex;
       flex-direction: column-reverse;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
     }
     .description-content{
         margin-top: 50px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
         align-items: center;
-        padding-left: 250px;
         width: 100%;
+        height: 50%;
     }
 
    .image-div{
-    padding-top: 100px;
-    border-radius: 50%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+     margin-top: 100px;
+
    }
    .first-image{
-    width: 300px;
     height: 300px;
+    width: 300px;
     border-radius: 50%;
+    
    }
   
    .name{
@@ -75,7 +99,9 @@ spam{
     .button-div{
       display: none;
     }
-   
+   .description-content{
+    width: 100%;
+   }
     span {
       font-size: 36px;
       margin-right: 0;
@@ -88,18 +114,5 @@ spam{
     }
   }
   
-  /* Media Query for Mobile Phones */
-  @media screen and (max-width: 480px) {
-    .About-me {
-      font-size: 30px;
-    }
-  
-    span {
-      font-size: 30px;
-    }
-  
-    .about-description {
-      font-size: 16px;
-    }
-  }
+
   
