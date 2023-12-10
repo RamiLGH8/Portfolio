@@ -1,6 +1,7 @@
 #projects{
     height: 100vh;
     background-color: #111827;
+    width: 100%;
 }
 #projects-slides{
     display: flex;

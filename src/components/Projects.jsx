@@ -11,7 +11,7 @@ export const Projects = () => {
        
        <div id='projects-slides'>
        <Swiper
-         style={{height:'100%',paddingTop:'50px',paddingLeft:'100px',paddingRight:'100px',paddingBottom:'50px',zIndex:'0'}}
+         style={{height:'100%',paddingTop:'50px',paddingLeft:'100px',paddingRight:'100px',paddingBottom:'50px',zIndex:'0',}}
         spaceBetween={50}
         autoplay={{
           delay: 2500,
@@ -28,33 +28,29 @@ export const Projects = () => {
             spaceBetween:150,
           },
 
-          749:{
-            slidesPerView: 2,
-            spaceBetween:90,
-          },
+        
         }
       }
 
         modules={[Autoplay]}
         className="mySwiper"
          >
-      <SwiperSlide  >
+      <SwiperSlide  style={{height:'100%',width:'80%',display:'flex',justifyContent:'center',alignItems:'center'}}>
         <Project name='Chat App' description='Ivhfbhbjkrbjhfhjbhbsjbsfbhjfbhdhbsvhbhbdhbvshbhjsyghjbsvhjbjhbsvvsbjhdvhhduvieufibdvhbvd' 
            link='https://github.com/RamiLGH8/CHAT-APP' icon='fa-solid fa-message' />
       </SwiperSlide>
-      <SwiperSlide >
+      <SwiperSlide style={{height:'100%',width:'80%',display:'flex',justifyContent:'center',alignItems:'center'}}>
         <Project name='To Do List' description='uehkjhkjvhrjbrhkkjrnvjnrjhhbrijiejmjfbfhfjjievrnbrnjijinvfbbn n fbfhbfvnnvjnvf'
            link='https://github.com/RamiLGH8/TO-DO-LIST' icon='fa-solid fa-list' />
       </SwiperSlide>
-      <SwiperSlide >
+      <SwiperSlide style={{height:'100%',width:'80%',display:'flex',justifyContent:'center',alignItems:'center'}}>
         <Project name='Calculator' description='vhgvyvegyghwvhhhdbvhfbhghfgjgrgygrvyghrvuhjhvfhjhjvrhhvbhf' 
            link='https://github.com/RamiLGH8/Calculator' icon='fa-solid fa-calculator' />
       </SwiperSlide>
-      <SwiperSlide >
+      <SwiperSlide style={{height:'100%',width:'80%',display:'flex',justifyContent:'center',alignItems:'center'}}>
         <Project name='Calculator' description='vhgvyvegyghwvhhhdbvhfbhghfgjgrgygrvyghrvuhjhvfhjhjvrhhvbhf' 
            link='https://github.com/RamiLGH8/Calculator' icon='fa-solid fa-calculator' />
       </SwiperSlide>
-      
     </Swiper>
        </div>
    </div> 

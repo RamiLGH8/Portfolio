@@ -8,7 +8,7 @@ function Project (props) {
        <div className='informations'>
         <div className='title'>
          <h2>{props.name}</h2>
-         <i className='project-icon' class={props.icon} style={{fontSize:'40px'}}></i>
+         <i className='project-icon' class={props.icon} ></i>
         </div>
         <div className='description'>
          <p className='description-text'>{props.description}</p>

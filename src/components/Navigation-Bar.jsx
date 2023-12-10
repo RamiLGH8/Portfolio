@@ -7,9 +7,17 @@ import '../styles/navigation-bar.css'
 import MenuIcon from '@mui/icons-material/Menu';
 function NavigationBar() {
   const [show, setShow] = useState(false);
+  const [display,setDisplay]=useState('none');
+  
+  const handleClose = () =>{ 
+                   setShow(false);
+                   setDisplay('none');
+                  };
+  const handleShow = () =>{
+                   setShow(true);
+                   setDisplay('block');  
+                  }
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
     return (
       <>
       {/* Desktop navbar */}
@@ -33,13 +41,13 @@ function NavigationBar() {
         <Navbar.Brand href='#home' style={{width:'100px'}} ><spam className='Rami'>Rami</spam ><span className='L'>L.</span></Navbar.Brand>
         
         </Nav.Item>
-        <Nav.Item style={{display:'flex',alignItems:'center',marginRight:'10px'}}>
+        { <Nav.Item style={{display:'flex',alignItems:'center',marginRight:'10px'}}>
         <btn onClick={handleShow}>
           <MenuIcon style={{color:'#FFFFFF',fontSize:'50px',marginLeft:'auto',}}/>
         </btn>
-        </Nav.Item>
-       
-      <Offcanvas show={show} onHide={handleClose} placement='end'>
+        </Nav.Item> }
+{       
+      <Offcanvas style={{display:display}} show={show} onHide={handleClose} placement='end'>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title></Offcanvas.Title>
         </Offcanvas.Header>
@@ -49,7 +57,7 @@ function NavigationBar() {
           <Nav.Link href="#projects" style={{color:'#020617' ,marginRight:'20px',fontSize:'20px',marginLeft:'10px',marginBottom:'15px'}}>Projects</Nav.Link>
           <Nav.Link href="#contact" style={{color:'#020617' ,marginRight:'20px',fontSize:'20px',marginLeft:'10px',marginBottom:'15px'}}>Contact</Nav.Link>
         </Offcanvas.Body>
-      </Offcanvas>
+      </Offcanvas> }
       </Nav>
       </div>
     </>
