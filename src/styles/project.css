@@ -66,8 +66,9 @@
 }
 @media screen and (max-width: 991px) {
     .Project-Card{
-        width: 224px;
+        width: 240px;
         height: 250px ;
+        overflow: hidden;
     }
     .title{
         font-size: 20px;

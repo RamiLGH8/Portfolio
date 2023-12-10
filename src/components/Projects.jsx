@@ -35,15 +35,15 @@ export const Projects = () => {
         modules={[Autoplay]}
         className="mySwiper"
          >
-      <SwiperSlide  style={{display:'flex',justifyContent:'center',alignItems:'center',marginRight:'200px'}}>
+      <SwiperSlide  style={{display:'flex',justifyContent:'center',alignItems:'center',marginRight:'90px'}}>
         <Project name='Chat App' description='Ivhfbhbjkrbjhfhjbhbsjbsfbhjfbhdhbsvhbhbdhbvshbhjsyghjbsvhjbjhbsvvsbjhdvhhduvieufibdvhbvd' 
            link='https://github.com/RamiLGH8/CHAT-APP' icon='fa-solid fa-message' />
       </SwiperSlide>
-      <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',marginRight:'200px'}}>
+      <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',marginRight:'90px'}}>
         <Project name='To Do List' description='uehkjhkjvhrjbrhkkjrnvjnrjhhbrijiejmjfbfhfjjievrnbrnjijinvfbbn n fbfhbfvnnvjnvf'
            link='https://github.com/RamiLGH8/TO-DO-LIST' icon='fa-solid fa-list' />
       </SwiperSlide>
-      <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',marginRight:'200px'}}>
+      <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',marginRight:'90px'}}>
         <Project name='Calculator' description='vhgvyvegyghwvhhhdbvhfbhghfgjgrgygrvyghrvuhjhvfhjhjvrhhvbhf' 
            link='https://github.com/RamiLGH8/Calculator' icon='fa-solid fa-calculator' />
       </SwiperSlide>
