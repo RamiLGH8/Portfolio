@@ -2,7 +2,7 @@
     background-color: #020617;
     display: block;
     flex-direction: column;
-    
+
     z-index: -1000;
     height: 400px;
     width: 400px;
@@ -66,9 +66,8 @@
 }
 @media screen and (max-width: 991px) {
     .Project-Card{
-        width: 250px;
+        width: 224px;
         height: 250px ;
-
     }
     .title{
         font-size: 20px;
