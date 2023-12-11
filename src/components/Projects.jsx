@@ -36,24 +36,24 @@ export const Projects = () => {
         className="mySwiper"
          >
       <SwiperSlide  style={{display:'flex',justifyContent:'center',alignItems:'center',marginRight:'90px'}}>
-        <Project name='Chat App' description='Ivhfbhbjkrbjhfhjbhbsjbsfbhjfbhdhbsvhbhbdhbvshbhjsyghjbsvhjbjhbsvvsbjhdvhhduvieufibdvhbvd' 
+        <Project name='Chat App' description='A real time chat app using Flutter firebase as a backend' 
            link='https://github.com/RamiLGH8/CHAT-APP' icon='fa-solid fa-message' />
       </SwiperSlide>
       <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',marginRight:'90px'}}>
-        <Project name='School Platform' description='uehkjhkjvhrjbrhkkjrnvjnrjhhbrijiejmjfbfhfjjievrnbrnjijinvfbbn n fbfhbfvnnvjnvf'
-           link='https://github.com/RamiLGH8/TO-DO-LIST' icon='fa-solid fa-list' />
+        <Project name='School Platform' description='A school platform using Flutter firebase as a backend'
+           link='https://github.com/RamyBouchareb25/SambaDev' icon='fa-solid fa-school' />
       </SwiperSlide>
       <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',marginRight:'90px'}}>
-        <Project name='Weather App' description='vhgvyvegyghwvhhhdbvhfbhghfgjgrgygrvyghrvuhjhvfhjhjvrhhvbhf' 
-           link='https://github.com/RamiLGH8/Calculator' icon='fa-solid fa-calculator' />
+        <Project name='Weather App' description='A real time weather application using Flutter and openweather API' 
+           link='https://github.com/RamiLGH8/weather_app' icon='fa-solid fa-cloud' />
       </SwiperSlide>
       <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',}}>
-        <Project name='QR Scanner' description='vhgvyvegyghwvhhhdbvhfbhghfgjgrgygrvyghrvuhjhvfhjhjvrhhvbhf' 
-           link='https://github.com/RamiLGH8/Calculator' icon='fa-solid fa-calculator' />
+        <Project name='QR Scanner' description='A QR code scanner using Flutter' 
+           link='https://github.com/RamiLGH8/MC_Check' icon='fa-solid fa-qrcode' />
       </SwiperSlide>
       <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',}}>
-        <Project name='TO DO LIST' description='vhgvyvegyghwvhhhdbvhfbhghfgjgrgygrvyghrvuhjhvfhjhjvrhhvbhf' 
-           link='https://github.com/RamiLGH8/Calculator' icon='fa-solid fa-calculator' />
+        <Project name='TO DO LIST' description='A basic TO DO LIST using Flutter' 
+           link='https://github.com/RamiLGH8/TO-DO-LIST' icon='fa-solid fa-list-check' />
       </SwiperSlide>
     </Swiper>
 

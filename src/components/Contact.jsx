@@ -23,19 +23,18 @@ export const Contact = () => {
                 <div className="Content-Left">
                       <p className="contact-info"><spam className="info">Address_</spam>Ain Benian,Algiers,Algeria</p>
                       <p className="contact-info"><spam className="info">Phone_</spam>+213783111071</p>
-                      <p className="contact-info"><spam className="info">Email_</spam>ramilgh1604@gmail.com</p>
-                  
+                      <p className="contact-info"><spam className="info">Email_</spam>ramilgh1604@gmail.com</p>              
                 </div>
+
+               <div className="Right"> 
                 <form  ref={form} onSubmit={sendEmail}>
-
-                <div className="Right-Content">
-                 <input type="email" name="user_email" placeholder="Email" ></input>
-                  <textarea name="message" placeholder="Enter your message"></textarea>
-                  <button className="Contact-me-button" >Contact Me</button>
-                 
-                </div>
+                 <div className="Right-Content">
+                   <input type="email" name="user_email" placeholder="Email" ></input>
+                   <textarea name="message" placeholder="Enter your message"></textarea>
+                   <button className="Contact-me-button" >Contact Me</button>         
+                 </div>
                 </form>
-
+               </div>
                </div> 
              <div className="Socials">
                <a href="https://web.facebook.com/profile.php?id=100009874778147" style={{color:'#6B7280'}}><i className="social" class="fa-brands fa-facebook"></i></a>
