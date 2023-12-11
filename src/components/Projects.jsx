@@ -14,7 +14,7 @@ export const Projects = () => {
          style={{height:'100%',paddingTop:'50px',paddingLeft:'100px',paddingRight:'100px',paddingBottom:'50px',zIndex:'0',}}
         spaceBetween={50}
         autoplay={{
-          delay: 2500,
+          delay: 1500,
           disableOnInteraction: false,
         }}
       breakpoints={
@@ -40,18 +40,23 @@ export const Projects = () => {
            link='https://github.com/RamiLGH8/CHAT-APP' icon='fa-solid fa-message' />
       </SwiperSlide>
       <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',marginRight:'90px'}}>
-        <Project name='To Do List' description='uehkjhkjvhrjbrhkkjrnvjnrjhhbrijiejmjfbfhfjjievrnbrnjijinvfbbn n fbfhbfvnnvjnvf'
+        <Project name='School Platform' description='uehkjhkjvhrjbrhkkjrnvjnrjhhbrijiejmjfbfhfjjievrnbrnjijinvfbbn n fbfhbfvnnvjnvf'
            link='https://github.com/RamiLGH8/TO-DO-LIST' icon='fa-solid fa-list' />
       </SwiperSlide>
       <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',marginRight:'90px'}}>
-        <Project name='Calculator' description='vhgvyvegyghwvhhhdbvhfbhghfgjgrgygrvyghrvuhjhvfhjhjvrhhvbhf' 
+        <Project name='Weather App' description='vhgvyvegyghwvhhhdbvhfbhghfgjgrgygrvyghrvuhjhvfhjhjvrhhvbhf' 
            link='https://github.com/RamiLGH8/Calculator' icon='fa-solid fa-calculator' />
       </SwiperSlide>
       <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',}}>
-        <Project name='Calculator' description='vhgvyvegyghwvhhhdbvhfbhghfgjgrgygrvyghrvuhjhvfhjhjvrhhvbhf' 
+        <Project name='QR Scanner' description='vhgvyvegyghwvhhhdbvhfbhghfgjgrgygrvyghrvuhjhvfhjhjvrhhvbhf' 
+           link='https://github.com/RamiLGH8/Calculator' icon='fa-solid fa-calculator' />
+      </SwiperSlide>
+      <SwiperSlide style={{display:'flex',justifyContent:'center',alignItems:'center',}}>
+        <Project name='TO DO LIST' description='vhgvyvegyghwvhhhdbvhfbhghfgjgrgygrvyghrvuhjhvfhjhjvrhhvbhf' 
            link='https://github.com/RamiLGH8/Calculator' icon='fa-solid fa-calculator' />
       </SwiperSlide>
     </Swiper>
+
        </div>
    </div> 
    

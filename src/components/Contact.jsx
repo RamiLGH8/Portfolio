@@ -1,7 +1,20 @@
-import React from "react";
 import "../styles/contact.css";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 export const Contact = () => {
-  
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_pa1duvs', 'template_ewevq16', form.current, 'XqfzAOxJoykypqFNX')
+      .then((result) => {
+          console.log(result.text);
+          console.log("message sent")
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
     return(
         <>
           <div id="contact">
@@ -13,11 +26,16 @@ export const Contact = () => {
                       <p className="contact-info"><spam className="info">Email_</spam>ramilgh1604@gmail.com</p>
                   
                 </div>
+                <form  ref={form} onSubmit={sendEmail}>
+
                 <div className="Right-Content">
-                  <input type="email" name="email" placeholder="Email"></input>
+                 <input type="email" name="user_email" placeholder="Email" ></input>
                   <textarea name="message" placeholder="Enter your message"></textarea>
-                  <button className="Contact-me-button">Contact Me</button>
+                  <button className="Contact-me-button" >Contact Me</button>
+                 
                 </div>
+                </form>
+
                </div> 
              <div className="Socials">
                <a href="https://web.facebook.com/profile.php?id=100009874778147" style={{color:'#6B7280'}}><i className="social" class="fa-brands fa-facebook"></i></a>
